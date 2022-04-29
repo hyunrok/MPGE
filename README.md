@@ -6,10 +6,10 @@ Code release for MPGE.
 ##### Prerequisites
 - Python(>=3.7)
 - stable-baseline. 
-    - RL algorrithms are based on [stable-baseline framework](https://github.com/hill-a/stable-baselines) (for tensorflow)
+    - RL algorithms are based on [stable-baseline framework](https://github.com/hill-a/stable-baselines) (for tensorflow)
     - Please follow [this](https://stable-baselines.readthedocs.io/en/master/guide/install.html) to install stable-baseline  
 - Mujoco, mujoco-py:
-    - We need Mujoco and license to run it. Please refer the official site (http://www.mujoco.org/).
+    - Please refer the official site (http://www.mujoco.org/).
     - Also, install [mujoco-py](https://github.com/openai/mujoco-py)
 - yaml
 
