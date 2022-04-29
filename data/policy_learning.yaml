@@ -1,0 +1,26 @@
+SAC:
+  InvertedPendulum-v2:
+    batch_size: 256 # 64
+    buffer_size: 1000000
+    ent_coef: 'auto'
+    learning_rate: 0.0003
+    learning_starts: 1000
+    train_freq: 1
+
+  Hopper-v2:
+    batch_size: 256
+    buffer_size: 1000000
+    ent_coef: 'auto' # 0.01
+    gradient_steps: 1
+    learning_rate: 0.0003 # linear
+    learning_starts: 1000
+    train_freq: 1
+
+  HalfCheetah-v2:
+    batch_size: 256
+    buffer_size: 1000000
+    ent_coef: 'auto'
+    gradient_steps: 1
+    learning_rate: 0.0003
+    learning_starts: 10000
+    train_freq: 1
